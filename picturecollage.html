@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+		<style type="text/css">
+			*{
+				box-sizing: border-box;
+			}
+			html,body {
+				margin: 0px;
+				padding: 0px;
+			}
+			body {
+				background: red;
+			}
+			.container{
+				background: black;
+				min-height: 100vh;
+				display: grid;
+				grid-template-columns: 1fr 2fr 1fr 1fr;
+				grid-template-rows: 2fr 2fr 2fr 2fr;
+				grid-template-areas: 
+					"p1 p2 p2 p3"
+					"p1 p4 p5 p6"
+					"p7 p8 p8 p9"
+					"p10 p11 p12 p12";
+				grid-gap: 10px;
+				padding: 10px;
+
+			}
+			.item{
+				background: blue;
+				min-height: 100px;
+				min-width: 100px;
+			}
+			#photo1{
+				grid-area: p1;
+				background: url(citlaly1.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+			#photo2{
+				grid-area: p2;
+				background: url(citlaly13.JPEG);
+				background-size: cover;
+				background-position: center;
+			}
+			#photo3{
+				grid-area: p3;
+				background: url(citlaly3.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+			#photo4{
+				grid-area: p4;
+				background: url(citlaly4.jpg);
+				background-size: cover;
+				background-position: center;
+			}
+			#photo5{
+				grid-area: p5;
+				background: url(citlaly5.jpg);
+				background-size:cover;
+				background-position: top;
+			}
+			#photo6{
+				grid-area: p6;
+				background: url(citlaly6.jpg);
+				background-size:cover;
+				background-position: center;
+			}
+			#photo7{
+				grid-area: p7;
+				background: url(citlaly7.jpg);
+				background-size:cover;
+				background-position: center;
+			}
+			#photo8{
+				grid-area: p8;
+				background: url(citlaly14.JPEG);
+				background-size:cover;
+				background-position: center;
+			}
+			#photo9{
+				grid-area: p9;
+				background: url(citlaly9.jpg);
+				background-size:cover;
+				background-position: top;
+			}
+			#photo10{
+				grid-area: p10;
+				background: url(citlaly10.jpg);
+				background-size:cover;
+				background-position: top;
+			}
+			#photo11{
+				grid-area: p11;
+				background: url(citlaly11.jpg);
+				background-size:cover;
+				background-position: top;
+			}
+			#photo12{
+				grid-area: p12;
+				background: url(citlaly12.jpg);
+				background-size:cover;
+				background-position: top;
+			}
+
+
+		</style>
+</head>
+<body>
+
+<div class="container">
+			<div class="item" id="photo1">
+			</div>
+
+			<div class="item" id="photo2">
+			</div>
+
+			<div class="item" id="photo3">
+			</div>
+
+			<div class="item" id="photo4">
+			</div>
+
+			<div class="item" id="photo5">
+			</div>
+
+			<div class="item" id="photo6">
+			</div>
+
+			<div class="item" id="photo7">
+			</div>
+
+			<div class="item" id="photo8">
+			</div>
+
+			<div class="item" id="photo9">
+			</div>
+
+			<div class="item" id="photo10">
+			</div>
+
+			<div class="item" id="photo11">
+			</div>
+
+			<div class="item" id="photo12">
+			</div>
+
+</div>
+
+
+</body>
+</html>
